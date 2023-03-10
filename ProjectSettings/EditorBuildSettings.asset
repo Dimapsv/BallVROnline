@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Test_Scene.unity
+    guid: c38e3ffaeee095c41a90c15b416532ae
+  - enabled: 1
+    path: Assets/Scenes/Scene_2.unity
+    guid: cf4a4bd29e0bd564d9e0bbc77271ec44
+  - enabled: 1
+    path: Assets/Oculus/VR/Scenes/HandTest.unity
+    guid: b9a31e08066d6e343a208d34ec298f09
+  - enabled: 1
+    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
+    guid: 509f8fa80c708b343a603a4771d35c85
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 685ff5141de47374fa401b07990f0c3d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d2ccb9b2e78f3b0419086abfe2f9bf3f, type: 2}
