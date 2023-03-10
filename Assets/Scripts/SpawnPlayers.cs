@@ -15,6 +15,6 @@ public class SpawnPlayers : MonoBehaviour
     public void SpawnPlayer()
     {
         PhotonNetwork.Instantiate("OculusCameraMine", Player.transform.position, Quaternion.identity); //OVRCameraRig
-        PhotonNetwork.Instantiate("GameManager", Player.transform.position, Quaternion.identity);
+        PhotonNetwork.Instantiate("OVRManager", Player.transform.position, Quaternion.identity);
     }
 }
